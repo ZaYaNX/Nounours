@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 886ec49f3a71bca4da0b153a0014e531
+timeCreated: 1499373702
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite_sheets_marche_enfant_BU_0
+    21300002: sprite_sheets_marche_enfant_BU_1
+    21300004: sprite_sheets_marche_enfant_BU_2
+    21300006: sprite_sheets_marche_enfant_BU_3
+    21300008: sprite_sheets_marche_enfant_BU_4
+    21300010: sprite_sheets_marche_enfant_BU_5
+    21300012: sprite_sheets_marche_enfant_BU_6
+    21300014: sprite_sheets_marche_enfant_BU_7
+    21300016: sprite_sheets_marche_enfant_BU_8
+    21300018: sprite_sheets_marche_enfant_BU_9
+    21300020: sprite_sheets_marche_enfant_BU_10
+    21300022: sprite_sheets_marche_enfant_BU_11
+    21300024: sprite_sheets_marche_enfant_BU_12
+    21300026: sprite_sheets_marche_enfant_BU_13
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 335
+        width: 239
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 589
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 605
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_4
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 335
+        width: 239
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 603
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_6
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 335
+        width: 239
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_7
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 606
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_8
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 590
+        width: 10
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_9
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 335
+        width: 239
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 15
+        width: 220
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 14
+        width: 220
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_12
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 13
+        width: 220
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_sheets_marche_enfant_BU_13
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 12
+        width: 220
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
