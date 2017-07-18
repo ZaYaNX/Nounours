@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 public class OninoursStart : MonoBehaviour {
 
     float IntroTimer;
-    const float IntroPeriod = 3f;
+    const float IntroPeriod = 2f;
 
-	// Use this for initialization
+	
 	void Start () {
 
 	}
 	
-	// Update is called once per frame
+	
 	void Update ()
     {
         IntroTimer += Time.deltaTime;
