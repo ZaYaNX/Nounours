@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class OninoursStart : MonoBehaviour {
 
     float IntroTimer;
-    const float IntroPeriod = 2f;
+    const float IntroPeriod = 1.7f;
 
 	
 	void Start () {

@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteract : MonoBehaviour
 {
 
     public GameObject currentInterObj = null;
+    bool keyHold = false;
 
     void Update() // Filipe doit me taper
     {
+        Debug.Log(keyHold);
         if (Input.GetKeyDown(KeyCode.E) && currentInterObj != null)
         {
+            keyHold = true;
             Destroy(currentInterObj);
         }
     }
@@ -19,8 +23,11 @@ public class PlayerInteract : MonoBehaviour
     {
         if (other.CompareTag("InteracObject"))
         {
-            Debug.Log(other.name);
             currentInterObj = other.gameObject;
+        }
+        if (other.gameObject.layer == LayerMask.NameToLayer("Door") && keyHold)
+        {
+            SceneManager.LoadScene("Cinematique1");
         }
     }
 
