@@ -1,0 +1,307 @@
+
+skeleton.png
+size: 4096,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Annulaire D
+  rotate: false
+  xy: 2, 2
+  size: 26, 14
+  orig: 26, 14
+  offset: 0, 0
+  index: -1
+Annulaire G
+  rotate: false
+  xy: 72, 2
+  size: 26, 14
+  orig: 26, 14
+  offset: 0, 0
+  index: -1
+Avant Bras D
+  rotate: false
+  xy: 142, 2
+  size: 30, 16
+  orig: 30, 16
+  offset: 0, 0
+  index: -1
+Avant Bras G
+  rotate: false
+  xy: 212, 2
+  size: 30, 16
+  orig: 30, 16
+  offset: 0, 0
+  index: -1
+Biceps D
+  rotate: false
+  xy: 282, 2
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+Biceps G
+  rotate: false
+  xy: 352, 2
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+Blanc Oeil D
+  rotate: false
+  xy: 422, 2
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+Blanc Oeil G
+  rotate: false
+  xy: 492, 2
+  size: 14, 9
+  orig: 14, 9
+  offset: 0, 0
+  index: -1
+Bouche Bas
+  rotate: false
+  xy: 562, 2
+  size: 33, 34
+  orig: 33, 34
+  offset: 0, 0
+  index: -1
+Bouche Haut
+  rotate: false
+  xy: 632, 2
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+Corps
+  rotate: false
+  xy: 702, 2
+  size: 24, 45
+  orig: 24, 45
+  offset: 0, 0
+  index: -1
+Cou Part 1
+  rotate: false
+  xy: 772, 2
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+Cou Part 2
+  rotate: false
+  xy: 842, 2
+  size: 20, 16
+  orig: 20, 16
+  offset: 0, 0
+  index: -1
+Cou Part 3
+  rotate: false
+  xy: 912, 2
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
+Cou Part 4
+  rotate: false
+  xy: 982, 2
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+Couleur 1
+  rotate: false
+  xy: 1052, 2
+  size: 13, 20
+  orig: 13, 20
+  offset: 0, 0
+  index: -1
+Couleur 2
+  rotate: false
+  xy: 1122, 2
+  size: 10, 16
+  orig: 10, 16
+  offset: 0, 0
+  index: -1
+Couleur 3
+  rotate: false
+  xy: 1192, 2
+  size: 4, 5
+  orig: 4, 5
+  offset: 0, 0
+  index: -1
+Fireball
+  rotate: false
+  xy: 2942, 2
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+Fond Bouche
+  rotate: false
+  xy: 1262, 2
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+Globe D
+  rotate: false
+  xy: 1332, 2
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+Globe G
+  rotate: false
+  xy: 1402, 2
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Index D
+  rotate: false
+  xy: 1472, 2
+  size: 13, 26
+  orig: 13, 26
+  offset: 0, 0
+  index: -1
+Index G
+  rotate: false
+  xy: 1542, 2
+  size: 13, 26
+  orig: 13, 26
+  offset: 0, 0
+  index: -1
+Langue
+  rotate: false
+  xy: 1612, 2
+  size: 6, 18
+  orig: 6, 18
+  offset: 0, 0
+  index: -1
+Majeur D
+  rotate: false
+  xy: 1682, 2
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+Majeur G
+  rotate: false
+  xy: 1752, 2
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+Petale Central D
+  rotate: false
+  xy: 1822, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+Petale Central G
+  rotate: false
+  xy: 1892, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+Petit Doigt D
+  rotate: false
+  xy: 1962, 2
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+Petit Doigt G
+  rotate: false
+  xy: 2032, 2
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+Pouce D
+  rotate: false
+  xy: 2102, 2
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Pouce G
+  rotate: false
+  xy: 2172, 2
+  size: 17, 16
+  orig: 17, 16
+  offset: 0, 0
+  index: -1
+Protub Oeil D
+  rotate: false
+  xy: 2242, 2
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+Protub Oeil G
+  rotate: false
+  xy: 2312, 2
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+Pupille D
+  rotate: false
+  xy: 2382, 2
+  size: 4, 5
+  orig: 4, 5
+  offset: 0, 0
+  index: -1
+Pupille G
+  rotate: false
+  xy: 2452, 2
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+Tentacle Droite
+  rotate: false
+  xy: 2522, 2
+  size: 55, 22
+  orig: 55, 22
+  offset: 0, 0
+  index: -1
+Tentacle Gauche
+  rotate: false
+  xy: 2592, 2
+  size: 68, 19
+  orig: 68, 19
+  offset: 0, 0
+  index: -1
+Tentacle Mid
+  rotate: false
+  xy: 2662, 2
+  size: 64, 30
+  orig: 64, 30
+  offset: 0, 0
+  index: -1
+Tentacule Bras D
+  rotate: false
+  xy: 2732, 2
+  size: 43, 54
+  orig: 43, 54
+  offset: 0, 0
+  index: -1
+Tentacule Bras G
+  rotate: false
+  xy: 2802, 2
+  size: 43, 54
+  orig: 43, 54
+  offset: 0, 0
+  index: -1
+Tete
+  rotate: false
+  xy: 2872, 2
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1

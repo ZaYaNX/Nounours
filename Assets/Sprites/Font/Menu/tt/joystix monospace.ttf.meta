@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f53551c4cc7e793479a0531cdb1bc4d3
+timeCreated: 1502283188
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Joystix
+  fontNames:
+  - Joystix
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5c33117194069b740b5b36e6def9bd0a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
