@@ -33,17 +33,17 @@ public class AnimationPlayer : MonoBehaviour
 
         if (playerSpeed.x < 0) //LEFT
         {
-            animator.SetBool("walk_left", true);
+            animPlayer.AnimationName = "walk_left_ac_nounours";
         }
 
         if (playerSpeed.y > 0) //TOP
         {
-            animator.SetBool("walk_up", true);
+            animPlayer.AnimationName = "walk_up_ac_nounours";
         }
 
         if (playerSpeed.y < 0) //DOWN
         {
-            animator.SetBool("walk_down", true);
+            animPlayer.AnimationName = "walk_down_ac_nounours";
         }
 
         if (playerSpeed.x == 0 && playerSpeed.y == 0)
