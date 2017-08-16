@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Spine.Unity;
 
 public class AnimationPlayer : MonoBehaviour
 {
@@ -10,11 +11,14 @@ public class AnimationPlayer : MonoBehaviour
 
     private Animator animator;
 
+    [SerializeField]
+    SkeletonAnimation animPlayer;
 
     void Start()
     {
         animator = this.GetComponent<Animator>();
         playerPhysicScript = GetComponentInChildren<PlayerController>();
+        animPlayer = GetComponent<SkeletonAnimation>();
     }
 
 
@@ -24,7 +28,7 @@ public class AnimationPlayer : MonoBehaviour
 
         if (playerSpeed.x > 0) //RIGHT
         {
-            animator.SetBool("walk_right", true);
+            animPlayer.AnimationName = "walk_right_ac_nounours";
         }
 
         if (playerSpeed.x < 0) //LEFT
@@ -42,16 +46,9 @@ public class AnimationPlayer : MonoBehaviour
             animator.SetBool("walk_down", true);
         }
 
-        if (playerSpeed.x == 0)
+        if (playerSpeed.x == 0 && playerSpeed.y == 0)
         {
-            animator.SetBool("walk_right", false);
-            animator.SetBool("walk_left", false);
-        }
-
-        if (playerSpeed.y == 0)
-        {
-            animator.SetBool("walk_up", false);
-            animator.SetBool("walk_down", false);
+            animPlayer.AnimationName = "idle_ac_nounours";
         }
     }
 }

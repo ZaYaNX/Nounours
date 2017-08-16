@@ -1,0 +1,237 @@
+
+Enfant.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle/idl_01
+  rotate: true
+  xy: 255, 66
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+idle/idl_01_eyes
+  rotate: true
+  xy: 357, 66
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+idle/idl_02
+  rotate: true
+  xy: 306, 66
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+interaction_objet/down_01
+  rotate: true
+  xy: 459, 65
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+interaction_objet/left_01
+  rotate: true
+  xy: 962, 68
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+interaction_objet/right_01
+  rotate: true
+  xy: 761, 67
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+interaction_objet/up_01
+  rotate: true
+  xy: 609, 66
+  size: 36, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_d_01
+  rotate: true
+  xy: 306, 31
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_d_02
+  rotate: true
+  xy: 659, 67
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_d_03
+  rotate: true
+  xy: 255, 31
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_dos_01
+  rotate: false
+  xy: 102, 3
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_dos_02
+  rotate: false
+  xy: 155, 54
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_dos_03
+  rotate: false
+  xy: 205, 54
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_face-02
+  rotate: false
+  xy: 2, 53
+  size: 51, 49
+  orig: 51, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_face_01
+  rotate: false
+  xy: 55, 53
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_idl_01
+  rotate: false
+  xy: 55, 53
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_face_03
+  rotate: false
+  xy: 52, 2
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_g_01
+  rotate: true
+  xy: 356, 30
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_g_02
+  rotate: true
+  xy: 406, 30
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_g_03
+  rotate: false
+  xy: 152, 3
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_idl_02
+  rotate: false
+  xy: 105, 53
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+spine_nounours/Nounours_idl_eyes
+  rotate: false
+  xy: 2, 2
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+walk_down/Walk_Down_02
+  rotate: true
+  xy: 509, 65
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+walk_down/Walk_Down_03
+  rotate: true
+  xy: 559, 65
+  size: 37, 48
+  orig: 37, 48
+  offset: 0, 0
+  index: -1
+walk_left/walk_left_01
+  rotate: true
+  xy: 456, 29
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+walk_left/walk_left_02
+  rotate: true
+  xy: 811, 67
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+walk_left/walk_left_03
+  rotate: true
+  xy: 861, 67
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+walk_right/walk_right_01
+  rotate: true
+  xy: 408, 66
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: -1
+walk_right/walk_right_02
+  rotate: true
+  xy: 710, 67
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+walk_right/walk_right_03
+  rotate: true
+  xy: 911, 68
+  size: 34, 49
+  orig: 34, 49
+  offset: 0, 0
+  index: -1
+walk_up/walk_up_01
+  rotate: true
+  xy: 556, 27
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+walk_up/walk_up_02
+  rotate: false
+  xy: 186, 6
+  size: 37, 46
+  orig: 37, 46
+  offset: 0, 0
+  index: -1
+walk_up/walk_up_03
+  rotate: true
+  xy: 506, 27
+  size: 36, 48
+  orig: 36, 48
+  offset: 0, 0
+  index: -1

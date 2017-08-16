@@ -12,6 +12,11 @@ public class PlayerInteract : MonoBehaviour
 
     public GameObject currentInterObj = null;
     bool keyHold = false;
+    bool plancheHold = false;
+    [SerializeField]
+    BoxCollider2D hole;
+    [SerializeField]
+    GameObject planche;
 
     private void Start()
     {
@@ -25,9 +30,30 @@ public class PlayerInteract : MonoBehaviour
         {
             currentInterObj = other.gameObject;
         }
+        if (other.gameObject.layer == LayerMask.NameToLayer("Item") && currentInterObj != null)
+        {
+            if (currentInterObj.name.Contains("clef"))
+            {
+                gameObjectKey.SetActive(true);
+                keyHold = true;
+            }
+            if (currentInterObj.name.Contains("Bois"))
+            {
+                gameObjectPlanche.SetActive(true);
+                plancheHold = true;
+            }
+            Destroy(currentInterObj);
+        }
         if (other.gameObject.layer == LayerMask.NameToLayer("Door") && keyHold)
         {
             SceneManager.LoadScene(4);
+        }
+        if(other.gameObject.layer == LayerMask.NameToLayer("hole") && plancheHold)
+        {
+            hole.enabled = false;
+            planche.SetActive(true);
+            plancheHold = false;
+            gameObjectPlanche.SetActive(false);
         }
     }
 
@@ -41,24 +67,8 @@ public class PlayerInteract : MonoBehaviour
             }
         }
     }
-
-    void Update() // Filipe doit me taper
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && currentInterObj != null)
-        {
-            keyHold = true;
 
-            if (currentInterObj.name.Contains("clef"))
-            {
-                gameObjectKey.SetActive(true);
-            }
-
-            if (currentInterObj.name.Contains("Bois"))
-            {
-                gameObjectPlanche.SetActive(true);
-            }
-            
-            Destroy(currentInterObj);
-        }
     }
 }
