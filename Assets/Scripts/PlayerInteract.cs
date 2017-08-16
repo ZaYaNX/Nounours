@@ -7,6 +7,8 @@ public class PlayerInteract : MonoBehaviour
 {
     [SerializeField]
     GameObject gameObjectKey;
+    [SerializeField]
+    GameObject gameObjectPlanche;
 
     public GameObject currentInterObj = null;
     bool keyHold = false;
@@ -14,6 +16,7 @@ public class PlayerInteract : MonoBehaviour
     private void Start()
     {
         gameObjectKey.SetActive(false);
+        gameObjectPlanche.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -44,7 +47,17 @@ public class PlayerInteract : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && currentInterObj != null)
         {
             keyHold = true;
-            gameObjectKey.SetActive(true);
+
+            if (currentInterObj.name.Contains("clef"))
+            {
+                gameObjectKey.SetActive(true);
+            }
+
+            if (currentInterObj.name.Contains("Bois"))
+            {
+                gameObjectPlanche.SetActive(true);
+            }
+            
             Destroy(currentInterObj);
         }
     }
