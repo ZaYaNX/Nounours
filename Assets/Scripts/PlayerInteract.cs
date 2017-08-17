@@ -32,6 +32,7 @@ public class PlayerInteract : MonoBehaviour
         }
         if (other.gameObject.layer == LayerMask.NameToLayer("Item") && currentInterObj != null)
         {
+            ItemSound.Instance.LootSound();
             if (currentInterObj.name.Contains("clef"))
             {
                 gameObjectKey.SetActive(true);
@@ -71,4 +72,5 @@ public class PlayerInteract : MonoBehaviour
     {
 
     }
+
 }
