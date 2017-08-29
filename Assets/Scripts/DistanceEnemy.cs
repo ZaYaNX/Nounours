@@ -5,53 +5,45 @@ using Spine.Unity;
 
 public class DistanceEnemy : MonoBehaviour
 {
-    /* Player Zone S*/
-    PlayerController playerScript;
-    Vector2 playerPosition;
-
     /* IA Zone */
-    float xVision = 5.0f;
     float yVision = 5.0f;
     SkeletonAnimation animIa;
+    float timerAnimAttack = 2.0f;
+    bool canTimerAttackDown = false;
+
+    /* Fire */
+    [SerializeField]
+    GameObject prefabFire;
 
     private void Start()
     {
-        playerScript = GameObject.Find("Player").GetComponent<PlayerController>() as PlayerController;
         animIa = GetComponent<SkeletonAnimation>();
     }
 
-    private void checkPlayer()
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (playerPosition.x > 0)
-        {
-            playerPosition = new Vector2(playerPosition.x * -1, playerPosition.y);
-        }
-
-        if (playerPosition.y > 0)
-        {
-            playerPosition = new Vector2(playerPosition.x, playerPosition.y * -1);
-        }
-
-        Debug.Log((transform.position.x - playerPosition.x));
-
-        if ((transform.position.x - playerPosition.x) > xVision)
-        {
-            
-            animIa.loop = false;
-            animIa.AnimationName = "AttackDown";
-        }
-
-        if ((transform.position.y - playerPosition.y) > yVision)
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             animIa.loop = false;
             animIa.AnimationName = "AttackDown";
+            canTimerAttackDown = true;
         }
     }
 
     private void Update()
     {
-        playerPosition = playerScript.getPosition();
-        checkPlayer();
-    }
+        if (canTimerAttackDown)
+        {
+            timerAnimAttack -= Time.deltaTime;
+        }
 
+        if (timerAnimAttack <= 0)
+        {
+            timerAnimAttack = 2.0f;
+            canTimerAttackDown = false;
+            Instantiate(prefabFire, transform.position, transform.rotation);
+            animIa.loop = true;
+            animIa.AnimationName = "IDLE";
+        }
+    }
 }
