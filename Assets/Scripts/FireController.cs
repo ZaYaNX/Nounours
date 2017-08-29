@@ -13,6 +13,10 @@ public class FireController : MonoBehaviour {
     float speed = 5.0f;
     Rigidbody2D body;
 
+    /* Dammage Zone*/
+    float timerDammage = 0.0f;
+    float periodeDammage = 2.0f;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -26,9 +30,24 @@ public class FireController : MonoBehaviour {
         body.velocity = movement;
     }
 
-	// Update is called once per frame
-	void Update ()
+    private void OnCollisionEnter2D(Collision2D collider)
     {
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Player"))
+        {
+            Debug.Log("touch");
+            if (timerDammage <= 0)
+            {
+                scriptPlayer.loseLife();
+                timerDammage = periodeDammage;
+                Destroy(gameObject);
+            }
+        }
+    }
+
+    // Update is called once per frame
+    void Update ()
+    {
+        timerDammage -= Time.deltaTime;
         movement = new Vector2(speed * trajectPos.x, speed * trajectPos.y);
 	}
 }
