@@ -12,6 +12,8 @@ public class Cinematique : MonoBehaviour
     SpriteRenderer image2;
     [SerializeField]
     SpriteRenderer image3;
+    [SerializeField]
+    SpriteRenderer image4;
     float imageDisabledTimer;
     float imageDisabledPeriod;
     string currentScene;
@@ -28,12 +30,15 @@ public class Cinematique : MonoBehaviour
         {
             imageDisabledPeriod = 0.5f;
         }
-
-        currentScene = SceneManager.GetActiveScene().name;
         if (currentScene == "Cinematique2")
         {
             imageDisabledPeriod = 2f;
         }
+        if (currentScene == "Cinematique3")
+        {
+            imageDisabledPeriod = 2f;
+        }
+
 
 
     }
@@ -48,7 +53,13 @@ public class Cinematique : MonoBehaviour
         if (currentScene == "Cinematique0" && imageDisabledTimer >= imageDisabledPeriod)
         {
             SceneManager.LoadScene("Level1");      
-        }      
+        }
+
+        imageDisabledTimer += Time.deltaTime;
+        if (imageDisabledTimer >= imageDisabledPeriod && currentScene == "Cinematique3")
+        {
+            StartCoroutine(cinématique_04());
+        }
     }
 
     IEnumerator cinématique1()
@@ -64,7 +75,6 @@ public class Cinematique : MonoBehaviour
 
     IEnumerator cinématique_04()
     {
-        image1.enabled = false;
         yield return new WaitForSeconds(4);
         SceneManager.LoadScene("menu");
     }
