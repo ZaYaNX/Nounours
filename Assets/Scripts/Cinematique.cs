@@ -61,4 +61,11 @@ public class Cinematique : MonoBehaviour
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene("Level2");
     }
+
+    IEnumerator cinématique_04()
+    {
+        image1.enabled = false;
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene("menu");
+    }
 }
