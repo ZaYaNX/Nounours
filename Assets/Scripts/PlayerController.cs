@@ -72,6 +72,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public Vector3 getPosition()
+    {
+        return transform.position;
+    }
+
     private void loseLife()
     {
         if (animLife1.loop)
