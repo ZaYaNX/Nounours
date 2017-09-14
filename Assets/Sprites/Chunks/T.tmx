@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="9" height="13" tilewidth="32" tileheight="32" nextobjectid="5">
+ <tileset firstgid="1" source="../ground.tsx"/>
+ <tileset firstgid="10" source="../wall.tsx"/>
+ <tileset firstgid="19" source="../wall_down.tsx"/>
+ <tileset firstgid="20" source="../wall_down_left.tsx"/>
+ <tileset firstgid="21" source="../wall_down_right.tsx"/>
+ <tileset firstgid="22" source="../wall_left.tsx"/>
+ <tileset firstgid="23" source="../wall_right.tsx"/>
+ <tileset firstgid="24" source="../wall_up.tsx"/>
+ <tileset firstgid="25" source="../all_up_left.tsx"/>
+ <tileset firstgid="26" source="../wall_up_right.tsx"/>
+ <layer name="sol" width="9" height="13">
+  <data encoding="csv">
+4,5,6,7,8,9,7,8,9,
+7,8,9,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9,
+1,2,3,1,2,3,1,2,3,
+4,5,6,4,5,6,4,5,6,
+7,8,9,7,8,9,7,8,9
+</data>
+ </layer>
+ <layer name="Wall" width="9" height="13">
+  <data encoding="csv">
+10,11,12,10,11,12,10,11,12,
+13,14,15,13,14,15,13,14,15,
+16,17,18,16,17,18,16,17,18,
+25,24,24,24,24,24,24,24,26,
+22,0,0,0,0,0,0,0,23,
+22,0,0,0,0,0,0,0,23,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+22,0,0,0,0,0,0,0,23,
+22,0,0,0,0,0,0,0,23,
+22,0,0,0,0,0,0,0,23,
+20,19,19,0,0,0,19,19,21
+</data>
+ </layer>
+ <objectgroup name="Wall_colisions">
+  <object id="1" x="-1" y="0">
+   <polyline points="0,0 0,190 5,191 4,104 14,97 272,98 283,104 284,110 284,191 289,191 289,0 0,1"/>
+  </object>
+  <object id="3" x="0" y="288">
+   <polyline points="0,0 1,129 94,128 94,126 15,126 5,120 5,1 0,2"/>
+  </object>
+  <object id="4" x="192" y="415">
+   <polyline points="0,0 95,0 96,-126 91,-125 92,-12 87,-5 2,-4 -1,0"/>
+  </object>
+ </objectgroup>
+</map>
