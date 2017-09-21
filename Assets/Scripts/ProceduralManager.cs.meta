@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f22a84e76c7a3d4c986e8c9a1fcd4e3
+timeCreated: 1505918076
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - firstZone: {fileID: 1257261678090478, guid: b0260b29fbc3cf143a0aea953a21fad2,
+      type: 2}
+  - lastZone: {fileID: 1879869961686746, guid: dfdb2ca2b38c5154e9e486872838ee4e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
